@@ -3,7 +3,8 @@ body, html {
   font-family: Arial;
   font-size: 12px;
   color: #333;
-  font-size: 16px;
+  font-size: 1.25em;
+  box-sizing: content-box;
 }
 
 .loading {
@@ -20,4 +21,24 @@ body, html {
 .error {
   color: tomato;
   padding: 10px 0;
+}
+
+input[type="number"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(75, 75, 75);
+}
+input[type="submit"], button {
+  padding: 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+  background-color: rgb(90, 93, 134);
+  color: white;
+  width: 100px;
+  cursor: pointer;
+}
+
+img{
+  width: 300px;
+  height: 300px;
 }
